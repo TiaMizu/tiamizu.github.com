@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | 退藏于密]]></title>
   <link href="http://TiaMizu.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://TiaMizu.github.io/"/>
-  <updated>2014-03-22T00:08:18+08:00</updated>
+  <updated>2014-04-26T16:48:49+08:00</updated>
   <id>http://TiaMizu.github.io/</id>
   <author>
     <name><![CDATA[TiaMizu]]></name>
@@ -14,13 +14,14 @@
 
   
   <entry>
-    <title type="html"><![CDATA[我的第一篇Pctopress博客]]></title>
+    <title type="html"><![CDATA[我的第一篇Octopress博客]]></title>
     <link href="http://TiaMizu.github.io/blog/2014/03/21/my-first-octopress-blog/"/>
     <updated>2014-03-21T18:08:13+08:00</updated>
     <id>http://TiaMizu.github.io/blog/2014/03/21/my-first-octopress-blog</id>
-    <content type="html"><![CDATA[<h1>欢迎访问我的Octopress博客</h1>
+    <content type="html"><![CDATA[<h2>欢迎访问我的Octopress博客</h2>
 
-<p><code>javascript
+<p>初步搞掂了好嗨森~
+<code>javascript
 alert("欢迎访问我的Opctopress博客！")；
 </code></p>
 ]]></content>
