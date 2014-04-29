@@ -4,7 +4,7 @@
   <title><![CDATA[退藏于密]]></title>
   <link href="http://TiaMizu.github.io/atom.xml" rel="self"/>
   <link href="http://TiaMizu.github.io/"/>
-  <updated>2014-04-29T23:57:29+08:00</updated>
+  <updated>2014-04-30T00:04:35+08:00</updated>
   <id>http://TiaMizu.github.io/</id>
   <author>
     <name><![CDATA[TiaMizu]]></name>
@@ -47,6 +47,9 @@
 
 
 <p>title就是文章名字，这样后创建出一个Markdown格式的文件：<code>source/_posts/xxxx-xx-xx-title.markdown</code>。找过去编辑它~</p>
+
+<!--more-->
+
 
 <p>蓝后上下面三句话，灰常常用了：</p>
 
