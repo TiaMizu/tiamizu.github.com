@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 随笔 | 退藏于密]]></title>
   <link href="http://TiaMizu.github.io/blog/categories/sui-bi/atom.xml" rel="self"/>
   <link href="http://TiaMizu.github.io/"/>
-  <updated>2014-04-29T21:16:17+08:00</updated>
+  <updated>2014-04-29T23:57:29+08:00</updated>
   <id>http://TiaMizu.github.io/</id>
   <author>
     <name><![CDATA[TiaMizu]]></name>
@@ -12,6 +12,97 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[octopress 设置整理]]></title>
+    <link href="http://TiaMizu.github.io/blog/2014/04/29/octopressrec/"/>
+    <updated>2014-04-29T23:49:50+08:00</updated>
+    <id>http://TiaMizu.github.io/blog/2014/04/29/octopressrec</id>
+    <content type="html"><![CDATA[<p>关于怎么搭建octopress的问题其实Google上一搜一大把，所以手勤快点查一下照着办就是了。
+然后注意的一点是类似版本号的问题，心得就是最好使用配置教程里面提到的版本，这样麻烦事尊的会少很多……血的教训T<sup>T</sup></p>
+
+<p>然后就是更新博文和维护等事儿了。这里严重推荐<a href="http://chensy0203.github.io/posts/hello-octopress.html">这篇文章</a>，非常有用的信息。</p>
+
+<h3><strong>1. 维护更新等一些日常的事</strong></h3>
+
+<p>1.1 更新octopress
+如果以后有octopress更新版本，用下面的方法升级：
+<code>
+git remote add octopress git://github.com/imathis/octopress.git
+git pull octopress master        #get the latest octopress
+bundle install                   #keep gems updated
+rake update_source               #update the template's source
+rake update_style                #update the template's style
+</code>
+1.2 写新文章
+<code>
+rake new_post["title"]
+</code>
+title就是文章名字，这样后创建出一个Markdown格式的文件：<code>source/_posts/xxxx-xx-xx-title.markdown</code>。找过去编辑它~</p>
+
+<p>蓝后上下面三句话，灰常常用了：
+<code>
+rake preview        # 通过http://localhost:4000预览
+rake generate       # 发布文件到public目录
+rake deploy         # 部署到github
+</code></p>
+
+<p>剩下还有什么octopress的个性化设置之类的细碎的东西，这个么我这窝都还没咋弄呢。。所以以后照着改了后再备忘吧！</p>
+
+<h3><strong>2. 博文编写</strong></h3>
+
+<p>因为用的是markdown语言，所以关于格式啊语法啊啥的还是有点讲究的。这里偶然间花线了一个<a href="https://www.zybuluo.com/mdeditor">在线的Markdown编写器</a>，直接对照着现学，灰常之快~另外它还有<a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown">基本</a>和<a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-%E9%AB%98%E9%98%B6%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C">高阶</a>的Markdown语法。这东西应该是越用越熟吧。</p>
+
+<p>另外当你撸完了这些语法后发现为什么还是有诸如段首空格以及空行之类的问题的话，请不要麻烦地Google答案去吧（好欠扁的指导╭(╯^╰)╮）。不过谷完了要记住就是了~像我这等早期健忘痴呆患者的话就得及时记下来！
+　　
+以下就是给我等重度健忘者的备忘：</p>
+
+<ul>
+<li><p><strong>首先关于Markdown的段首缩进问题：</strong></p>
+
+<blockquote><p>　　Markdown 语言不负责实现段首缩进 (ˊ_>ˋ)<br/>
+　　段首缩进这件事，应该是 CSS 或者其他排版工具的事情，Markdown 奉行的是样式和内容分开的哲学。<br/>
+　　即使手动输入空格，&amp;nbsp 也是很不推荐的方法。我推荐全角空格，切换到全角模式下（一般的中文输入法都是按 shift + space）输入两个空格就行了。这个相对 &amp;nbsp 来说稍微干净一点，而且宽度是整整两个汉字，很整齐。<br/>
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　——摘自<a href="http://www.zhihu.com/question/21420126">知乎</a></p></blockquote></li>
+<li><p><strong>然后是空行问题：</strong></p></li>
+</ul>
+
+
+<p>　由于Markdown语法支持直接使用HTML注记，所以直接用html的空行方法就行了~
+　另外，根据 Markdown 语法（Daring Fireball: Markdown Syntax Documentation），当需要插入换行符时，可在一行的结尾加上两个或更多的空格。但是据说Mou的预览不支持这种方法。直接用第一种好了嘛~</p>
+
+<h3><strong>3. 各种问题</strong></h3>
+
+<p>其实经常遇到各种乱七八糟的问题呢。。对我这种既扒不开麻又死懒的人来说，还是头疼医头脚疼医脚的办法。。感谢那篇文章！</p>
+
+<p><strong>3.1 执行git命令时，操作失败：permission denied（publick key)</strong>
+这是我在将source提交到仓库的source分支下时出的问题
+<code>
+$ git add .
+$ git commit -m "comment"
+$ git push origin source
+</code>
+进行到第三步时的error。</p>
+
+<pre><code>原因：没有设置好ssh keys
+解决： 参考官方教程(https://help.github.com/articles/generating-ssh-keys)
+</code></pre>
+
+<p>这里可能会粗线问题o(╯□╰)o就是</p>
+
+<pre><code>$ ssh-add ~/.ssh/id_rsa
+</code></pre>
+
+<p>这一步么，可能会有could not open a connection to your authentication agent的错误提示</p>
+
+<pre><code>解决：先执行命令`ssh-agent bash`，再接着往下做。
+</code></pre>
+
+<hr />
+
+<p>不定时更新吧，看以后会遇到什么问题~</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[我的第一篇Octopress博客]]></title>
