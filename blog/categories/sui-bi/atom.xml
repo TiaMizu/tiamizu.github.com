@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 随笔 | 退藏于密]]></title>
   <link href="http://TiaMizu.github.io/blog/categories/sui-bi/atom.xml" rel="self"/>
   <link href="http://TiaMizu.github.io/"/>
-  <updated>2014-04-30T00:04:35+08:00</updated>
+  <updated>2014-04-30T00:12:52+08:00</updated>
   <id>http://TiaMizu.github.io/</id>
   <author>
     <name><![CDATA[TiaMizu]]></name>
@@ -19,7 +19,7 @@
     <updated>2014-04-29T23:49:50+08:00</updated>
     <id>http://TiaMizu.github.io/blog/2014/04/29/octopressrec</id>
     <content type="html"><![CDATA[<p>关于怎么搭建octopress的问题其实Google上一搜一大把，所以手勤快点查一下照着办就是了。
-然后注意的一点是类似版本号的问题，心得就是最好使用配置教程里面提到的版本，这样麻烦事尊的会少很多……血的教训T<sup>T</sup></p>
+然后注意的一点是类似版本号的问题，心得就是最好使用配置教程里面提到的版本，这样麻烦事尊的会少很多……血的教训T ^ T</p>
 
 <p>然后就是更新博文和维护等事儿了。这里严重推荐<a href="http://chensy0203.github.io/posts/hello-octopress.html">这篇文章</a>，非常有用的信息。</p>
 
@@ -71,8 +71,9 @@ rake deploy         # 部署到github
 </ul>
 
 
-<p>　由于Markdown语法支持直接使用HTML注记，所以直接用html的空行方法就行了~
-　另外，根据 Markdown 语法（Daring Fireball: Markdown Syntax Documentation），当需要插入换行符时，可在一行的结尾加上两个或更多的空格。但是据说Mou的预览不支持这种方法。直接用第一种好了嘛~</p>
+<p>　由于Markdown语法支持直接使用HTML注记，所以直接用html的空行方法&lt; br/ >就行了~</p>
+
+<p>　另外，根据 Markdown 语法（Daring Fireball: Markdown Syntax Documentation），当需要插入换行符时，可在一行的结尾加上两个或更多的空格。但是据说Mou的预览不支持这种方法。直接用第一种好了嘛~</p>
 
 <h3><strong>3. 各种问题</strong></h3>
 
