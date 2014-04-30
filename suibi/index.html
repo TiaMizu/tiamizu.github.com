@@ -64,8 +64,8 @@
 
       <div class="nav-collapse">
         <ul class="nav">
-  <li><a href="/">首页</a></li>
-  <li><a href="/blog/archives">所有文章</a></li>
+  <li><a href="/">博客</a></li>
+  <li><a href="/blog/archives">博文目录</a></li>
   <li><a href="/blog/categories/shi-fang">拾芳</a></li>
   <li><a href="/blog/categories/sui-bi">随笔</a></li>
 </ul>
@@ -136,8 +136,6 @@
       
         <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://TiaMizu.github.io/suibi/index.html" data-via="" data-counturl="http://TiaMizu.github.io/suibi/index.html" >Tweet</a>
-  
   
   
 </div>
@@ -179,20 +177,44 @@
   </ul>
 </section>
 <section>
-  <h1>Categories</h1>
+  <h2>分类</h2>
   <ul id="categories">
-    {% category_list %} 
+    <li class='category'><a href='/blog/categories/octopress/'>Octopress (1)</a></li>
+<li class='category'><a href='/blog/categories/shi-fang/'>拾芳 (2)</a></li>
+<li class='category'><a href='/blog/categories/sui-bi/'>随笔 (1)</a></li>
+
   </ul>
-</section><section>
-    <h1>新浪微博</h1>
+</section>
+<section>
+    <h2>微博</h2>
     <ul id="weibo">
     <li>
 
     <!-- 在此插入获得的微博秀代码 -->
-    	<iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=2&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=3683714551&verifier=a447a592&dpc=1"></iframe>
+    	<iframe width="100%" 
+    	height="550" 
+    	class="share_self"  
+    	frameborder="0" 
+    	scrolling="no" 
+    	src="http://widget.weibo.com/weiboshow/index.php?
+    	language=&
+    	width=0&
+    	height=550&
+    	fansRow=0&
+    	ptype=1&speed=0&
+    	skin=2&
+    	isTitle=1&
+    	noborder=1&
+    	isWeibo=1&
+        isFans=1&
+    	uid=3683714551&
+    	verifier=a447a592&
+    	dpc=1">
+    </iframe>
       </li>
     </ul>
 </section>
+
 
   
 </aside>
@@ -230,16 +252,6 @@
 
 
 
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 
