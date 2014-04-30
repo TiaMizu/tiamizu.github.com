@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[退藏于密]]></title>
+  <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://TiaMizu.github.io/atom.xml" rel="self"/>
   <link href="http://TiaMizu.github.io/"/>
-  <updated>2014-04-30T13:21:14+08:00</updated>
+  <updated>2014-04-30T17:16:45+08:00</updated>
   <id>http://TiaMizu.github.io/</id>
   <author>
-    <name><![CDATA[TiaMizu]]></name>
+    <name><![CDATA[Your Name]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -188,13 +188,11 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[我的第一篇Octopress博客]]></title>
+    <title type="html"><![CDATA[我的第一篇Pctopress博客]]></title>
     <link href="http://TiaMizu.github.io/blog/2014/03/21/my-first-octopress-blog/"/>
     <updated>2014-03-21T18:08:13+08:00</updated>
     <id>http://TiaMizu.github.io/blog/2014/03/21/my-first-octopress-blog</id>
-    <content type="html"><![CDATA[<h2>欢迎访问我的Octopress博客</h2>
-
-<p>初步搞掂了好嗨森~</p>
+    <content type="html"><![CDATA[<h1>欢迎访问我的Octopress博客</h1>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;欢迎访问我的Opctopress博客！&quot;</span><span class="p">)</span><span class="err">；</span>
