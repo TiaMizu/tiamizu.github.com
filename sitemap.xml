@@ -2,23 +2,27 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://TiaMizu.github.io/blog/2014/03/21/my-first-octopress-blog/</loc>
-        <lastmod>2014-05-02T11:46:04+08:00</lastmod>
+        <lastmod>2014-05-02T11:49:12+08:00</lastmod>
     </url>
     <url>
         <loc>http://TiaMizu.github.io/blog/2014/04/26/mid-autumn/</loc>
-        <lastmod>2014-05-02T11:46:04+08:00</lastmod>
+        <lastmod>2014-05-02T11:49:12+08:00</lastmod>
     </url>
     <url>
         <loc>http://TiaMizu.github.io/blog/2014/04/26/ghostfestival/</loc>
-        <lastmod>2014-05-02T11:46:04+08:00</lastmod>
+        <lastmod>2014-05-02T11:49:12+08:00</lastmod>
     </url>
     <url>
         <loc>http://TiaMizu.github.io/blog/2014/04/29/octopressrec/</loc>
-        <lastmod>2014-05-02T11:46:04+08:00</lastmod>
+        <lastmod>2014-05-02T11:49:12+08:00</lastmod>
     </url>
     <url>
         <loc>http://TiaMizu.github.io/blog/2014/05/01/threepoints/</loc>
-        <lastmod>2014-05-02T11:46:04+08:00</lastmod>
+        <lastmod>2014-05-02T11:49:12+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TiaMizu.github.io/blog/2014/05/06/designingdesign/</loc>
+        <lastmod>2014-05-06T00:55:47+08:00</lastmod>
     </url>
     <url>
         <loc>http://TiaMizu.github.io/404.html</loc>
@@ -34,7 +38,7 @@
     </url>
     <url>
         <loc>http://TiaMizu.github.io/blog/archives/</loc>
-        <lastmod>2014-05-01T11:21:53+08:00</lastmod>
+        <lastmod>2014-05-06T00:55:47+08:00</lastmod>
     </url>
     <url>
         <loc>http://TiaMizu.github.io/blog/categories/</loc>
@@ -46,7 +50,7 @@
     </url>
     <url>
         <loc>http://TiaMizu.github.io/</loc>
-        <lastmod>2014-05-01T11:21:53+08:00</lastmod>
+        <lastmod>2014-05-06T00:55:47+08:00</lastmod>
     </url>
     <url>
         <loc>http://TiaMizu.github.io/robots.txt</loc>
